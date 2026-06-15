@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agro Sustentável - O Poder do Milho</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="logo">AgroForte 🌽</div>
+            <ul class="nav-links">
+                <li><a href="#pilares">Sustentabilidade</a></li>
+                <li><a href="#simulador">Simulador</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>O Milho e a Força do Agro Sustentável</h1>
+        <p>Alimentando o mundo, preservando o futuro. Descubra como a tecnologia e a rotação de culturas transformam a produção de milho em um motor verde.</p>
+        <a href="#simulador" class="btn">Simule o Impacto</a>
+    </section>
+
+    <main class="container">
+        
+        <section id="pilares">
+            <h2 class="section-title">Pilares do Milho Sustentável</h2>
+            <div class="grid-pilares">
+                <div class="card">
+                    <h3>🔄 Rotação de Culturas</h3>
+                    <p>O plantio do milho intercalado ou em sucessão à soja (milho safrinha) melhora a saúde do solo, quebra o ciclo de pragas e reduz a necessidade de fertilizantes químicos.</p>
+                </div>
+                <div class="card">
+                    <h3>💧 Manejo Hídrico</h3>
+                    <p>Sistemas de irrigação gota a gota e monitoramento via satélite garantem que cada gota de água seja aproveitada ao máximo, evitando o desperdício dos recursos hídricos.</p>
+                </div>
+                <div class="card">
+                    <h3>☀️ Biocombustíveis</h3>
+                    <p>Além de alimento, o milho é base para o etanol verde. A pegada de carbono é drasticamente reduzida, gerando energia limpa e coprodutos de alto valor para a nutrição animal.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="simulador">
+            <h2 class="section-title">Simulador de Impacto Sustentável</h2>
+            <div class="simulador-box">
+                <p class="simulador-desc">
+                    Insira o tamanho da sua área de plantio fictícia para calcular a estimativa de benefícios ecológicos com práticas sustentáveis de manejo de milho.
+                </p>
+                <div class="form-group">
+                    <label for="hectares">Área de Plantio (em Hectares):</label>
+                    <input type="number" id="hectares" placeholder="Ex: 50" min="1">
+                </div>
+                <button class="btn btn-full" id="btn-calcular">Calcular Benefícios</button>
+
+                <div id="resultado" class="resultado">
+                    <h4>Impacto Estimado por Ano:</h4>
+                    <p>🌱 <strong>Carbono Fixado no Solo:</strong> <span id="carbono">0</span> toneladas de CO₂.</p>
+                    <p>💧 <strong>Água Economizada:</strong> <span id="agua">0</span> mil litros (com manejo inteligente).</p>
+                    <p>🌽 <strong>Potencial de Produção:</strong> <span id="producao">0</span> sacas de milho de alta qualidade.</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 AgroForte Sustentável. Tecnologia, Produtividade e Respeito à Natureza.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
